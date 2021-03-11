@@ -27,20 +27,20 @@ const Animcontact = () => {
                 <div className="col-md-6 col-10 mx-auto">
                     <form onSubmit={formSubmit}>
                         <div className="mb-3">
-                            <label for="exampleFormControlInput1" className="form-label">FullName</label>
-                            <input type="text" className="form-control" id="exampleFormControlInput1" name="fullname" value={data.fullname} onChange={inputEvent}  placeholder="Enter your name" />
+                            <label for="exampleFormControlInput1" className="form-label" >FullName</label>
+                            <input type="text" className="form-control" id="exampleFormControlInput1" name="fullname" value={data.fullname} onChange={inputEvent}  placeholder="Enter your name"   autoComplete="off" required/>
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label">Phone no</label>
-                            <input type="number" className="form-control" id="exampleFormControlInput1" name="phone" value={data.phone} onChange={inputEvent} placeholder="Mobile number" />
+                            <input type="number" className="form-control" id="exampleFormControlInput1" name="phone" value={data.phone} onChange={inputEvent} placeholder="Mobile number"  autoComplete="off"/>
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlInput1" className="form-label">Email address</label>
-                            <input type="email" className="form-control" id="exampleFormControlInput1" name="email" value={data.email} onChange={inputEvent} placeholder="name@example.com" />
+                            <input type="email" className="form-control" id="exampleFormControlInput1" name="email" value={data.email} onChange={inputEvent} placeholder="name@example.com"  autoComplete="off" required/>
                         </div>
                         <div className="mb-3">
                             <label for="exampleFormControlTextarea1" className="form-label">Message</label>
-                            <textarea className="form-control" id="exampleFormControlTextarea1" name="message" value={data.message} onChange={inputEvent} rows="3"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" name="message" value={data.message} onChange={inputEvent} rows="3" autoComplete="off"></textarea>
                         </div>
                         <div class="col-12">
                             <button class="btn btn-outline-primary" type="submit">Submit form</button>

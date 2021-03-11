@@ -8,7 +8,7 @@ import About from './Animwebabout';
 import Service from './Animwebservice';
 import Navbar from './Animnavbar';
 import Footer from './Footer';
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
+
 
 
 const App=()=>{

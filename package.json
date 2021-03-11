@@ -1,5 +1,6 @@
 {
   "name": "awesomeapp",
+  "homepage": "https://priyanshushekhar1906.github.io/reactlivewebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,9 +15,11 @@
     "react-digital-clock": "^0.1.2",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

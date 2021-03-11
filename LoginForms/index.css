@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 64, 224, 0.637);
+}
+h1{
+    color:white;
+    text-shadow: 1px 2px 1px black;
+    margin: 1%;
+
+}
+input{
+    padding: 13px 53px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 23px;
+    box-shadow: 1px 2px 2px cyan;
+}
+.Btn{
+    padding: 1%;
+    background-color: violet;
+    box-shadow: 2px 3px 2px gray;
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 14%;
+    outline: none;
+}
